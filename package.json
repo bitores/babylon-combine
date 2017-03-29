@@ -1,0 +1,26 @@
+{
+  "name": "merge-babylon",
+  "version": "1.0.0",
+  "description": "Combine multiple babylon files into one babylon",
+  "main": "index.js",
+  "bin": {
+    "babylon-combine": "./bin/combine"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitores/merge-babylon.git"
+  },
+  "keywords": [
+    "merge",
+    "babylon"
+  ],
+  "author": "huangzhengjie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitores/merge-babylon/issues"
+  },
+  "homepage": "https://github.com/bitores/merge-babylon#readme"
+}
