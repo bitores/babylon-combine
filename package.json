@@ -1,5 +1,5 @@
 {
-  "name": "merge-babylon",
+  "name": "babylon-combine",
   "version": "1.0.0",
   "description": "Combine multiple babylon files into one babylon",
   "main": "index.js",
