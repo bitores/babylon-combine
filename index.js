@@ -169,8 +169,8 @@ function mergeBabylonData_SEO(retDataRef, json2){
 // console.log(require(src))
 
 
-var mergeBabylonFile = function(arrSrc, outFile, useDelayedTextureLoading){
-    outFile = !!outFile ? outFile : './outdir/out.babylon';
+var mergeBabylonFile = function(arrSrc, outFile, useBinary){
+
     var retData={
          "producer":{
             "name":"3dsmax",
@@ -204,7 +204,7 @@ var mergeBabylonFile = function(arrSrc, outFile, useDelayedTextureLoading){
         "actions":null,
         "metadata":null,
         "workerCollisions":false,
-        "useDelayedTextureLoading":!!useDelayedTextureLoading
+        "useDelayedTextureLoading":!!useBinary
     },
     mergeData = function(src){
         var data2=loadPartBabylon(src);
