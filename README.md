@@ -12,5 +12,7 @@ Combine multiple babylon files into one babylon
 ### 事例
 
 > babylon-combine ./singles ./outdir/ 
+
 > babylon-combine ./singles ./outdir/a.babylon
+
 > babylon-combine ./singles ./outdir/a.binary.babylon
